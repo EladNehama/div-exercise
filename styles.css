@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.upper-div {
+  width: 70%;
+  height : 300px;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-image: url('http://withers.pro.poola.tritondigitalcms.com/wp-content/uploads/2017/04/genie.jpg');
+  background-size:cover;
+  color: white;
+  }
+.middle-div {
+  width: 18%;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  background-image: url('https://vignette3.wikia.nocookie.net/aladdin/images/e/e1/Genie.jpg/revision/latest/scale-to-width-down/235?cb=20130331234508');
+}
+
+div.innerbox {
+  width: 98%;
+  height: 20px;
+  border: 1px solid black;
+  background: yellow;
+  position: absolute;
+  bottom: 0;
+}
+
+.out {
+  margin-top: 10px;
+  width: 70%;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+  background-image: url('https://media.giphy.com/media/YASduoNlGxSJa/giphy-facebook_s.jpg');
+  display: inline-block;
+  background-size:cover;
+}
+
+.in {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  margin: auto;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/004/408/704/large/barby-buenrostro-aladdin-genie-applause-redone.jpg?1483495997');
+  background-size:cover;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
